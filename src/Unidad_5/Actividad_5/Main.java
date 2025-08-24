@@ -1,8 +1,8 @@
 package Unidad_5.Actividad_5;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class Main {
         /*for (Producto p: listaProductos){
             System.out.println(p);
         }*/
-        HashSet<Producto> listaHashProducto = new HashSet<>();
+        Set<Producto> listaHashProducto = new HashSet<>();
 
         listaHashProducto.add(p1);
         listaHashProducto.add(p2);
